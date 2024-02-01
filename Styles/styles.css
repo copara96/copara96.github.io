@@ -135,13 +135,3 @@ footer {
     padding-bottom: 25px;
     font-size: 20px;
 }
-
-@media (max-width: 800px) {
-    #skills {
-        height: 400px;
-    }
-    img {
-        width: 200px;
-        height: 200px;
-    }
-}
