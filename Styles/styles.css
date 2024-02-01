@@ -1,3 +1,147 @@
 body {
+    font-family: Helvetica, sans-serif;
     background-color: lavender;
+    letter-spacing: 1px;
+}
+
+#navbar {
+    background-color: burlywood;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+}
+
+nav > a {
+    text-align: center;
+    margin-left: 165px;
+    margin-right: 100px;
+    font-size: 25px;
+    color: #000000;
+}
+
+#home {
+    height: 300px;
+    background-color: cadetblue;
+    margin-top: -42px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#about {
+    height: 290px;
+    text-align: center;
+}
+
+.intro-1 {
+    margin: 50px;
+    font-size: 24px;
+}
+
+img {
+    width: 175px;
+    height: 175px;
+    float: left;
+    padding-left: 100px;
+}
+
+h2, h3 {
+    font-size: 25px;
+text-align: center;
+}
+
+#skills {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.skills-intro {
+    padding-top: 40px;
+}
+
+.skills {
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+span {
+    font-size: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.twitter-link, .instagram-link, .linkedin-link, .github-link {
+display: inline;
+background-color: #ffffff;
+padding: 10px;
+border-radius: 10px;
+width: 50%;
+}
+
+form > input {
+font-size: 20px;
+text-align: left;
+padding: 10px;
+width: 50%;
+}
+
+textarea {
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    background-color: grey;
+    width: 25%;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.contact-intro {
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+#contact a {
+    font-size: 25px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    #skills {
+        height: 400px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
 }
