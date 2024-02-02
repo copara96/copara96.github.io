@@ -12,7 +12,7 @@ body {
 }
 
 nav > a {
-    text-align: center;
+    display: inline;
     margin-left: 165px;
     margin-right: 100px;
     font-size: 25px;
@@ -83,10 +83,6 @@ span {
     font-size: 15px;
 }
 
-p {
-    font-size: 20px;
-}
-
 .twitter-link, .instagram-link, .linkedin-link, .github-link {
 display: inline;
 background-color: #ffffff;
@@ -134,4 +130,177 @@ footer {
     padding-top: 50px;
     padding-bottom: 25px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2, h3 {
+        font-size: 20px;
+    }
+    #about {
+        height: 100%;
+        text-align: center;
+    }
+    .intro-1 {
+        font-size: 19px;
+    }
+    .skills li {
+        font-size: 16px;
+    }
+    nav > a {
+        display: inline;
+        margin-left: 80px;
+        margin-right: 45px;
+        font-size: 16px;
+}
+#contact a {
+    font-size: 18px;
+}
+form > input, textarea {
+    font-size: 15px;
+}
+footer {
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 601px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2, h3 {
+        font-size: 20px;
+    }
+    #about {
+        height: 100%;
+        text-align: center;
+    }
+    .intro-1 {
+        font-size: 19px;
+    }
+    .skills li {
+        font-size: 20px;
+    }
+    nav > a {
+        display: inline;
+        margin-left: 80px;
+        margin-right: 45px;
+        font-size: 18px;
+}
+#contact a {
+    font-size: 18.5px;
+}
+form > input, textarea {
+    font-size: 18px;
+}
+footer {
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2, h3 {
+        font-size: 25px;
+    }
+    #about {
+        height: 100%;
+        text-align: center;
+    }
+    .intro-1 {
+        font-size: 22px;
+    }
+    .skills li {
+        font-size: 20.5px;
+    }
+    nav > a {
+        display: inline;
+        margin-left: 86px;
+        margin-right: 45px;
+        font-size: 20px;
+}
+.contact-intro {
+    font-size: 25px;
+}
+#contact a {
+    font-size: 21px;
+}
+form > input, textarea {
+    font-size: 19px;
+}
+footer {
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2, h3 {
+        font-size: 30px;
+    }
+    #about {
+        height: 100%;
+        text-align: center;
+    }
+    .intro-1 {
+        font-size: 24px;
+    }
+    .skills li {
+        font-size: 22px;
+    }
+    nav > a {
+        display: inline;
+        margin-left: 165px;
+        margin-right: 100px;
+        font-size: 22.5px;
+}
+#contact a {
+    font-size: 22.5px;
+}
+form > input, textarea {
+    font-size: 20px;
+}
+footer {
+    font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2, h3 {
+        font-size: 25px;
+    }
+    #about {
+        height: 100%;
+        text-align: center;
+    }
+    .intro-1 {
+        font-size: 24px;
+    }
+    .skills li {
+        font-size: 23px;
+    }
+    nav > a {
+        display: inline;
+        margin-left: 165px;
+        margin-right: 100px;
+        font-size: 25px;
+}
+#contact a {
+    font-size: 25px;
+}
+form > input, textarea {
+    font-size: 22.5px;
+}
+footer {
+    font-size: 22px;
+}
 }
