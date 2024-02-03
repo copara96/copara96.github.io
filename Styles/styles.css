@@ -184,8 +184,8 @@ footer {
         font-size: 20px;
     }
     #navbar a {
-        margin: 30px;
-        padding: 24.5px;
+        margin: 27.5px;
+        padding: 22px;
     }
     #about {
         height: 100%;
@@ -201,7 +201,7 @@ footer {
         display: inline;
         margin-left: 80px;
         margin-right: 45px;
-        font-size: 20.5px;
+        font-size: 17.5px;
 }
 #contact a {
     font-size: 20px;
@@ -226,8 +226,8 @@ footer {
         font-size: 25px;
     }
     #navbar a {
-        margin: 30px;
-        padding: 25.5px;
+        margin: 27.5px;
+        padding: 23px;
     }
     #about {
         height: 100%;
@@ -243,7 +243,7 @@ footer {
         display: inline;
         margin-left: 86px;
         margin-right: 45px;
-        font-size: 25px;
+        font-size: 22.5px;
 }
 .contact-intro {
     font-size: 25px;
