@@ -151,6 +151,9 @@ footer {
     .skills li {
         font-size: 16px;
     }
+    .skills {
+        height: 320px;
+    }
     nav > a {
         display: inline;
         margin-left: 80px;
@@ -189,6 +192,9 @@ footer {
     }
     .intro-1 {
         font-size: 19px;
+    }
+    .skills {
+        height: 350px;
     }
     .skills li {
         font-size: 20px;
